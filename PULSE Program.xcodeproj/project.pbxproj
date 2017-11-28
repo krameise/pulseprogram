@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187DB1A97E5C94EA838D759D /* Pods_PULSE_Program.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DE4FC3D4E736478491439D /* Pods_PULSE_Program.framework */; };
+		E527CA6F1FCDE80100AB53B0 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527CA6E1FCDE80100AB53B0 /* Program.swift */; };
 		E5BB04711FC7320C00CE38B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB04701FC7320C00CE38B7 /* AppDelegate.swift */; };
 		E5BB04731FC7320C00CE38B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB04721FC7320C00CE38B7 /* ViewController.swift */; };
 		E5BB04761FC7320C00CE38B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BB04741FC7320C00CE38B7 /* Main.storyboard */; };
 		E5BB04791FC7320C00CE38B7 /* PULSE_Program.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5BB04771FC7320C00CE38B7 /* PULSE_Program.xcdatamodeld */; };
 		E5BB047B1FC7320C00CE38B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BB047A1FC7320C00CE38B7 /* Assets.xcassets */; };
 		E5BB047E1FC7320C00CE38B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BB047C1FC7320C00CE38B7 /* LaunchScreen.storyboard */; };
+		E5BB04861FC737D500CE38B7 /* PartnerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB04851FC737D500CE38B7 /* PartnerDetailViewController.swift */; };
+		E5BB04881FC737F700CE38B7 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB04871FC737F700CE38B7 /* LocationDetailViewController.swift */; };
+		E5BB048A1FC7380F00CE38B7 /* FacultyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB04891FC7380F00CE38B7 /* FacultyDetailViewController.swift */; };
+		E5BB048C1FC7381D00CE38B7 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB048B1FC7381D00CE38B7 /* ContactDetailViewController.swift */; };
+		E5BB048E1FC74CE900CE38B7 /* PartnerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB048D1FC74CE900CE38B7 /* PartnerDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF6411FA19EAF50974776C13 /* Pods-PULSE Program.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PULSE Program.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PULSE Program/Pods-PULSE Program.debug.xcconfig"; sourceTree = "<group>"; };
+		B2DF184A7B2A210ACE0F3A1E /* Pods-PULSE Program.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PULSE Program.release.xcconfig"; path = "Pods/Target Support Files/Pods-PULSE Program/Pods-PULSE Program.release.xcconfig"; sourceTree = "<group>"; };
+		D4DE4FC3D4E736478491439D /* Pods_PULSE_Program.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PULSE_Program.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E527CA6E1FCDE80100AB53B0 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
 		E5BB046D1FC7320C00CE38B7 /* PULSE Program.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PULSE Program.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BB04701FC7320C00CE38B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BB04721FC7320C00CE38B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,12 @@
 		E5BB047A1FC7320C00CE38B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BB047D1FC7320C00CE38B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5BB047F1FC7320C00CE38B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BB04851FC737D500CE38B7 /* PartnerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerDetailViewController.swift; sourceTree = "<group>"; };
+		E5BB04871FC737F700CE38B7 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		E5BB04891FC7380F00CE38B7 /* FacultyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyDetailViewController.swift; sourceTree = "<group>"; };
+		E5BB048B1FC7381D00CE38B7 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		E5BB048D1FC74CE900CE38B7 /* PartnerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerDetails.swift; sourceTree = "<group>"; };
+		E5BB048F1FC755B500CE38B7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +48,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187DB1A97E5C94EA838D759D /* Pods_PULSE_Program.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A54DE5DF9F49591A86360B44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF6411FA19EAF50974776C13 /* Pods-PULSE Program.debug.xcconfig */,
+				B2DF184A7B2A210ACE0F3A1E /* Pods-PULSE Program.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB3F73E1F6064797A1678E5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4DE4FC3D4E736478491439D /* Pods_PULSE_Program.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5BB04641FC7320C00CE38B7 = {
 			isa = PBXGroup;
 			children = (
 				E5BB046F1FC7320C00CE38B7 /* PULSE Program */,
 				E5BB046E1FC7320C00CE38B7 /* Products */,
+				E5BB048F1FC755B500CE38B7 /* Podfile */,
+				A54DE5DF9F49591A86360B44 /* Pods */,
+				BB3F73E1F6064797A1678E5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +96,12 @@
 			children = (
 				E5BB04701FC7320C00CE38B7 /* AppDelegate.swift */,
 				E5BB04721FC7320C00CE38B7 /* ViewController.swift */,
+				E5BB04851FC737D500CE38B7 /* PartnerDetailViewController.swift */,
+				E5BB048D1FC74CE900CE38B7 /* PartnerDetails.swift */,
+				E527CA6E1FCDE80100AB53B0 /* Program.swift */,
+				E5BB04871FC737F700CE38B7 /* LocationDetailViewController.swift */,
+				E5BB04891FC7380F00CE38B7 /* FacultyDetailViewController.swift */,
+				E5BB048B1FC7381D00CE38B7 /* ContactDetailViewController.swift */,
 				E5BB04741FC7320C00CE38B7 /* Main.storyboard */,
 				E5BB047A1FC7320C00CE38B7 /* Assets.xcassets */,
 				E5BB047C1FC7320C00CE38B7 /* LaunchScreen.storyboard */,
@@ -74,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5BB04821FC7320C00CE38B7 /* Build configuration list for PBXNativeTarget "PULSE Program" */;
 			buildPhases = (
+				17FF46947F4D21A4DE5286DF /* [CP] Check Pods Manifest.lock */,
 				E5BB04691FC7320C00CE38B7 /* Sources */,
 				E5BB046A1FC7320C00CE38B7 /* Frameworks */,
 				E5BB046B1FC7320C00CE38B7 /* Resources */,
+				EE925C5B3F257FF8D871989B /* [CP] Embed Pods Frameworks */,
+				EA563459A637EFF7A5F683A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +181,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17FF46947F4D21A4DE5286DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PULSE Program-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA563459A637EFF7A5F683A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PULSE Program/Pods-PULSE Program-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PULSE Program/Pods-PULSE Program-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE925C5B3F257FF8D871989B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PULSE Program/Pods-PULSE Program-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5BB04691FC7320C00CE38B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BB048A1FC7380F00CE38B7 /* FacultyDetailViewController.swift in Sources */,
+				E5BB048E1FC74CE900CE38B7 /* PartnerDetails.swift in Sources */,
 				E5BB04731FC7320C00CE38B7 /* ViewController.swift in Sources */,
 				E5BB04791FC7320C00CE38B7 /* PULSE_Program.xcdatamodeld in Sources */,
+				E5BB048C1FC7381D00CE38B7 /* ContactDetailViewController.swift in Sources */,
+				E527CA6F1FCDE80100AB53B0 /* Program.swift in Sources */,
+				E5BB04861FC737D500CE38B7 /* PartnerDetailViewController.swift in Sources */,
 				E5BB04711FC7320C00CE38B7 /* AppDelegate.swift in Sources */,
+				E5BB04881FC737F700CE38B7 /* LocationDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +383,13 @@
 		};
 		E5BB04831FC7320C00CE38B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6411FA19EAF50974776C13 /* Pods-PULSE Program.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D4JNP6C44;
 				INFOPLIST_FILE = "PULSE Program/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.PULSE-Program";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +400,13 @@
 		};
 		E5BB04841FC7320C00CE38B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DF184A7B2A210ACE0F3A1E /* Pods-PULSE Program.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D4JNP6C44;
 				INFOPLIST_FILE = "PULSE Program/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.PULSE-Program";
 				PRODUCT_NAME = "$(TARGET_NAME)";
