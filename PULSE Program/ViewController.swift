@@ -27,5 +27,9 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func unwindFacultyDetailViewController(sender: UIStoryboardSegue) {
+        
+    }
+    
 }
 
